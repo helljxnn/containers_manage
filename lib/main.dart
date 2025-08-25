@@ -1,19 +1,17 @@
-import 'package:containers_manage/containereexample.dart';
+import 'package:containers_manage/viarcane.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(
-        body: ContainerExample()
-      ),
+      home: ViArcane(), 
     );
   }
 }
